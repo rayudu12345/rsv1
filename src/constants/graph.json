@@ -1,0 +1,65 @@
+{
+    "lineGraph": {
+        "data": [
+            {
+                "name": "Active",
+                "type": "area",
+                "dataJson": [
+                    0,
+                    20,
+                    30,
+                    40,
+                    30,
+                    20,
+                    40,
+                    60,
+                    70,
+                    0
+                ]
+            },
+            {
+                "name": "In Active",
+                "type": "line",
+                "dataJson": [
+                    0,
+                    10,
+                    20,
+                    30,
+                    20,
+                    10,
+                    30,
+                    50,
+                    60,
+                    0
+                ]
+            }
+        ]
+    },
+    "pieGraph": {
+        "labelJson": [
+            "Phase 1",
+            "Phase 2",
+            "Phase 3"
+        ],
+        "serviceJson": [
+            10,
+            20,
+            20
+        ]
+    },
+    "barGraph": {
+        "name": "",
+        "dataJson": [
+            30,
+            40,
+            50,
+            40,
+            60,
+            80,
+            50,
+            20,
+            40,
+            60
+        ]
+    }
+}

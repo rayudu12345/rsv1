@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  height: -webkit-fill-available;
+}
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  font-weight: 400 !important;
+  font-family: "Lexend", sans-serif;
+  background-color: #fff;
+}
+
+:root {
+  --tss-primary: #2c60c3;
+  --tss-primary-dark: #1a469a;
+  --tss-gray: #5d697e;
+}
+
+a {
+  color: var(--tss-primary);
+  text-decoration: none;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.fs-12 {
+  font-size: 0.75rem !important;
+  line-height: 1.4em;
+}
+
+.fs-14 {
+  font-size: 0.875rem !important;
+  line-height: 1.4em;
+}
+
+.fs-16 {
+  font-size: 1rem !important;
+  line-height: 1.4em;
+}
+
+.fs-18 {
+  font-size: 1.125rem !important;
+  line-height: 1.4em;
+}
+
+.fs-20 {
+  font-size: 1.25rem !important;
+  line-height: 1.4em;
+}
+
+.fs-22 {
+  font-size: 1.375rem !important;
+  line-height: 1.4em;
+}
+
+.fs-24 {
+  font-size: 1.5rem !important;
+  line-height: 1.4em;
+}
+
+.fs-26 {
+  font-size: 1.625rem !important;
+  line-height: 1.4em;
+}
+
+.fs-28 {
+  font-size: 1.75rem !important;
+  line-height: 1.4em;
+}
+
+.fs-30 {
+  font-size: 1.875rem !important;
+  line-height: 1.4em;
+}
+
+.fs-32 {
+  font-size: 2rem !important;
+  line-height: 1.4em;
+}
+
+.fs-34 {
+  font-size: 2.125rem !important;
+  line-height: 1.4em;
+}
+
+.fs-36 {
+  font-size: 2.25rem !important;
+  line-height: 1.4em;
+}
+
+.fs-38 {
+  font-size: 2.375rem !important;
+  line-height: 1.4em;
+}
+
+.fs-40 {
+  font-size: 2.5rem !important;
+  line-height: 1.4em;
+}
+
+.fs-50 {
+  font-size: 3.125rem !important;
+  line-height: 1.4em;
+}
+
+.fs-60 {
+  font-size: 3.75rem !important;
+  line-height: 1.4em;
+}
+
+.fs-70 {
+  font-size: 4.375rem !important;
+  line-height: 1.4em;
+}
+
+.fs-80 {
+  font-size: 5rem !important;
+  line-height: 1.4em;
+}
+
+.fs-90 {
+  font-size: 5.625rem !important;
+  line-height: 1.4em;
+}
+
+.fs-100 {
+  font-size: 6.25rem !important;
+  line-height: 1.4em;
+}
+
+.tss-relative {
+  position: relative;
+}
+.tss-absolute {
+  position: absolute;
+}
+/**/
+.main_content {
+  width: calc(100% - 4.6rem);
+  padding: 1.5rem 1rem 2rem 1rem;
+  margin-left: 4.6rem;
+}
+.bg-light {
+  background: #f7f7f7 !important;
+}
+.tss_rounded {
+  border-radius: 0.5rem;
+}
+.text-gray {
+  color: var(--tss-gray);
+}
+.btn-blue {
+  background-color: var(--tss-primary) !important;
+  color: #fff;
+}
+.btn-blue:hover {
+  color: #fff;
+}
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .row {
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+  .row [class*="col"] {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}

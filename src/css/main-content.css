@@ -1,0 +1,57 @@
+.main_content {
+}
+.main_content .page_title {
+  color: var(--tss-primary);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.action-dropdown {
+  float: right;
+}
+
+.action_dropdown {
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  font-size: 0.8rem;
+  position: relative;
+  text-transform: none;
+  border-radius: 0.25rem;
+}
+.action_dropdown::after {
+  content: none;
+}
+.action_dropdown::before {
+  content: "\e903";
+  font-family: "icomoon" !important;
+  font-size: 0.5rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+}
+
+.action-dropdown .dropdown-menu.show {
+  margin-top: -2px !important;
+  padding: 0;
+  min-width: 8rem;
+}
+.action-dropdown .dropdown-menu li a {
+  font-size: 12px;
+}
+.action-dropdown .dropdown-menu li a:active {
+  background-color: var(--tss-primary);
+  color: #fff;
+}
+.action-dropdown .dropdown {
+  white-space: nowrap;
+  font-size: 13px;
+}
+.action-dropdown .dropdown .css-1s2u09g-control,
+.action-dropdown .dropdown .css-1pahdxg-control {
+  background: var(--tss-primary) !important;
+}
+.action-dropdown .dropdown .css-14el2xx-placeholder,
+.action-dropdown .dropdown .css-319lph-ValueContainer,
+.action-dropdown .dropdown .css-qc6sy-singleValue {
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+}

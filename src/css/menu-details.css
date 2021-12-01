@@ -1,0 +1,108 @@
+.menu_details {
+  width: 15.5rem;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0px 3px 12px #0000001f;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  left: 4.75rem;
+  /* left:-16rem; */
+  padding: 2rem 1.5rem;
+  transition: all 0.75s ease;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.menu_details h3 {
+  color: var(--tss-gray);
+  font-size: 1.5rem;
+}
+.menu_details p {
+  color: #9ca6b7;
+  font-size: 12px;
+}
+.menu_details .nav {
+  min-height: auto;
+}
+.menu_details .nav .nav_list {
+}
+.menu_details .nav .nav_list .nav_sublink {
+  width: 100%;
+  display: inline-flex;
+  padding: 0.45rem 0.8rem;
+  background: #ff000000;
+  margin: 0.25rem 0;
+  border-radius: 0.5rem;
+  font-size: 13px;
+  font-weight: 300;
+  color: #838ea1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  transition: 0.3s;
+}
+.menu_details .nav .nav_list .nav_sublink .nav_icon {
+  color: #768fbf;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+.menu_details .nav .nav_list .nav_sublink .nav_name {
+  line-height: 1;
+  padding: 8px 7px 7px 7px;
+  transition: 0.3s;
+}
+
+.menu_details .nav .nav_list .nav_sublink.active,
+.menu_details .nav .nav_list .nav_sublink:hover {
+  background: #f5f7fb;
+  transition: 0.3s;
+}
+
+.menu_details .nav .nav_list .nav_sublink.active .nav_icon,
+.menu_details .nav .nav_list .nav_sublink:hover .nav_icon {
+  color: var(--tss-primary);
+  transition: 0.3s;
+}
+
+.menu_details .nav .nav_list .nav_sublink.active .nav_name,
+.menu_details .nav .nav_list .nav_sublink:hover .nav_name {
+  color: var(--tss-primary);
+  transition: 0.3s;
+}
+
+body.show-menu-details .menu_details {
+  left: 4.6rem;
+  transition: 0.5rem;
+}
+
+.close_sidemenu {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  z-index: 9;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+.close_sidemenu::before {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 18px;
+  left: 6px;
+}
+.close_sidemenu::after {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 18px;
+  left: 6px;
+}

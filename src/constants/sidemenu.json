@@ -1,0 +1,48 @@
+{
+    "mainMenu": [
+        {
+            "name": "Home",
+            "icon": "home"
+        },
+        {
+            "name": "Study",
+            "icon": "study"
+        },
+        {
+            "name": "Contacts",
+            "icon": "contact"
+        },
+        {
+            "name": "Sponsor",
+            "icon": "sponsor"
+        },
+        {
+            "name": "Vendors",
+            "icon": "vendor"
+        }
+    ],
+    "notification_menu": [
+        {
+            "name": "Notifications",
+            "icon": "notification"
+        },
+        {
+            "name": "Settings",
+            "icon": "setting"
+        }
+    ],
+    "subMenu": [
+        {
+            "name": "Add Study",
+            "icon": "add-study"
+        },
+        {
+            "name": "Study List",
+            "icon": "study-list"
+        },
+        {
+            "name": "Reports",
+            "icon": "reports"
+        }
+    ]
+}

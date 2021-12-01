@@ -1,0 +1,159 @@
+{
+    "rows": [
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "Albert Tom",
+            "shortcut": "AT",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 2",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 3",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "Albert Tom",
+            "shortcut": "AT",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "Albert Tom",
+            "shortcut": "AT",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "John Deo",
+            "shortcut": "JD",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        },
+        {
+            "name": "Albert Tom",
+            "shortcut": "AT",
+            "date": "11-05-2021",
+            "irb": "VS-TEST-RECIST-32717-4",
+            "study": "Phase 1",
+            "therapeutic": "RSV",
+            "status": "Active"
+        }
+    ],
+    "columns": [
+        {
+            "labelValue": "Sponsor Name",
+            "fieldValue": "name",
+            "lableKey": "label",
+            "filedkey": "field"
+        },
+        {
+            "labelValue": "Protocol Number / IRB",
+            "fieldValue": "IRB",
+            "lableKey": "label",
+            "filedkey": "field"
+        },
+        {
+            "labelValue": "Study Phase",
+            "fieldValue": "study",
+            "lableKey": "label",
+            "filedkey": "field"
+        },
+        {
+            "labelValue": "Therapeutic Area",
+            "fieldValue": "therapeutic",
+            "lableKey": "label",
+            "filedkey": "field"
+        },
+        {
+            "labelValue": "Study Status",
+            "fieldValue": "status",
+            "lableKey": "label",
+            "filedkey": "field"
+        },
+        {
+            "labelValue": "Actions",
+            "fieldValue": "actions",
+            "lableKey": "label",
+            "filedkey": "field"
+        }
+    ]
+}

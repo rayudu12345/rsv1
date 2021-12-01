@@ -1,0 +1,82 @@
+{
+    "action_dropdown": [
+        {
+            "label": "Add Study",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 1
+        },
+        {
+            "label": "Study Upload",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 2
+        },
+        {
+            "label": "Reports",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 3
+        },
+        {
+            "label": "Study Settings",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 4
+        },
+        {
+            "label": "Delete",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 5
+        }
+    ],
+    "sponsor_name": [
+        {
+            "label": "John Deo",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 1
+        },
+        {
+            "label": "Albert Tom",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 2
+        }
+    ],
+    "study_phase": [
+        {
+            "label": "Phase 1",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 1
+        },
+        {
+            "label": "Phase 2",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 2
+        },
+        {
+            "label": "Phase 3",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 3
+        }
+    ],
+    "study_status": [
+        {
+            "label": "Active",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 1
+        },
+        {
+            "label": "In Active",
+            "labelKey": "label",
+            "valueKey": "value",
+            "value": 2
+        }
+    ]
+}
